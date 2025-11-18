@@ -1,0 +1,22 @@
+[tools]
+node = "20"
+
+[tasks.dev]
+description = "Start probot with file watch mode"
+run = "node --watch ./index.js"
+
+[tasks.start]
+description = "Start the probot application"
+run = "probot run ./index.js"
+
+[tasks.lint]
+description = "Fix linting issues with StandardJS"
+run = "standard --fix"
+
+[tasks.test]
+description = "Run tests and linter"
+run = "vitest run && standard"
+
+[tasks."test:watch"]
+description = "Run tests in watch mode with coverage"
+run = "vitest --watch --coverage"

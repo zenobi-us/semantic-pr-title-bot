@@ -1,0 +1,32 @@
+{
+  "name": "semantic-pr-title-bot",
+  "version": "1.0.0",
+  "description": "Enforces commit-lint on the title of your GitHub PR",
+  "author": "Zeno Jiricek <airtonix@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "https://github.com/zenobi-us/semantic-pr-title-bot.git",
+  "homepage": "https://github.com/zenobi-us/semantic-pr-title-bot",
+  "bugs": "https://github.com/zenobi-us/semantic-pr-title-bot/issues",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "dependencies": {
+    "probot": "^7.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "nock": "^10.0.0",
+    "smee-client": "^1.0.2",
+    "standard": "^12.0.1"
+  },
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "standard": {
+    "env": [
+      "node"
+    ]
+  }
+}
